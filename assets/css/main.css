@@ -2371,7 +2371,7 @@ footer {
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url(../img/background/bg.png) no-repeat;
   background-size: cover;
 }
 
@@ -2387,7 +2387,7 @@ footer {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #hero-area .contents {
