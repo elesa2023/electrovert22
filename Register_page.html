@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://elesa.co.in/elesaicon.ico">
+    <title>ELECTROVERT</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+</head>
+
+<style>
+    
+/*===========================
+       10.CONTACT css 
+===========================*/
+.single-info .info-icon i {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  line-height: 53px;
+  text-align: center;
+  background-color: #1863ff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.single-info .info-content {
+  padding-left: 20px;
+}
+.single-info .info-content .info-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #777777;
+}
+.single-info .info-content .text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1b273d;
+  margin-top: 5px;
+}
+
+.form-message {
+  margin-left: 15px;
+}
+.form-message.error,
+.form-message.success {
+  font-size: 16px;
+  color: #1b273d;
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-top: 15px;
+  background-color: #f5f8ff;
+}
+.form-message.error {
+  color: #f00;
+}
+
+.single-form {
+  position: relative;
+  margin-top: 30px;
+}
+.single-form input,
+.single-form textarea {
+  width: 100%;
+  height: 65px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 0 25px;
+  color: #777777;
+}
+.single-form input::placeholder,
+.single-form textarea::placeholder {
+  opacity: 1;
+  color: #777777;
+}
+.single-form input::-moz-placeholder,
+.single-form textarea::-moz-placeholder {
+  opacity: 1;
+  color: #777777;
+}
+.single-form input::-moz-placeholder,
+.single-form textarea::-moz-placeholder {
+  opacity: 1;
+  color: #777777;
+}
+.single-form input::-webkit-input-placeholder,
+.single-form textarea::-webkit-input-placeholder {
+  opacity: 1;
+  color: #777777;
+}
+.single-form input:focus,
+.single-form textarea:focus {
+  border-color: #1863ff;
+  background-color: #eaf1ff;
+}
+.single-form textarea {
+  padding-top: 15px;
+  height: 180px;
+  resize: none;
+}
+.single-form i {
+  position: absolute;
+  right: 25px;
+  top: 22px;
+  font-size: 16px;
+  color: #777777;
+}
+
+.contact-map .gmap_canvas {
+  padding: 8px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(72, 127, 255, 0.29);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(72, 127, 255, 0.29);
+  box-shadow: 0px 0px 21px 0px rgba(72, 127, 255, 0.29);
+}
+.contact-map .gmap_canvas iframe {
+  width: 100%;
+  height: 480px;
+}
+
+</style>
+
+<body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar" style="background-color: blue;">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a href="index.html" class="navbar-brand"><img src="assets/img/ELESA.svg"
+                        style=" width:200px; color: blue;" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="lni-menu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#header-wrap">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">
+                                Events
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#schedules">
+                                Schedules
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-text">
+                                Contact
+                            </a>
+                        </li>
+                        <div class="banner-btn" style="margin-top: 0.7rem  ">
+                            <a href="#" class="btn btn-common">Register now</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+        <section id="contact" class="contact-area pt-80 pb-130" style="padding-top:9rem">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-lg-4">
+                        <div class="about-image mt-50">
+                            <div class="single-pricing text-center">
+                                <div class="pricing-name">
+                                    <h4 class="pricing-title">UPI ID</h4>
+                                    <span class="sub-title">Please pay exact amount of event fees
+                                    </span>
+                                    <span class="sub-title">For Team Event Enter All Team member's names
+                                    </span>
+                                </div>
+                                <div class="pricing-price">
+                                    <h4 style="color: white">kulkarnipiyush12@kotak</h4>
+                                </div>
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>For any queries</li>
+                                        <li>Contact :</li>
+                                        <li>Piyush Kulkarni: 8378937212</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-12">
+                        <div class="contact-form pt-20">
+                            <form method="post" enctype="multipart/form-data"
+                                action="https://elesa.co.in/ElectrovertRegistration">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="single-form">
+                                            <input type="text" name="f_nm" placeholder="Your Name" required />
+                                            <i class="lni-user"></i>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="single-form">
+                                            <input type="email" name="em_id" placeholder="Your Email" required />
+                                            <i class="lni-envelope"></i>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="single-form">
+                                            <input type="text" name="ph_nm" placeholder="Phone Number" required />
+                                            <i class="lni-phone-handset"></i>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="single-form">
+                                            <input type="text" name="clg_nm" placeholder="Enter College" required />
+                                            <i class="lni-pencil-alt"></i>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="single-form">
+                                            <input type="text" name="branch" placeholder="Enter Branch" required />
+                                            <i class="lni-pencil-alt"></i>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="single-form">
+                                            <input type="text" name="tr_id" placeholder="Enter Transaction Id"
+                                                required />
+                                            <i class="lni lni-money-protection"></i>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group single-form">
+                                            <select class="custom-select" name="yr" id="inputGroupSelect04" required>
+                                                <option selected>Choose...</option>
+                                                <option value="1">FY</option>
+                                                <option value="2">SY</option>
+                                                <option value="3">TY</option>
+                                                <option value="4">Final Year</option>
+                                            </select>
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary" type="button" style="background-color: #676262;">
+                                                    Year
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="single-form">
+                                            <input type="text" name="ref_code" placeholder="Enter referral code" />
+                                            <i class="lni lni-shortcode"></i>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group single-form">
+                                            <select class="custom-select" name="event" id="inputGroupSelect04" required>
+                                                <option selected>Choose...</option>
+                                                <option value="Amaze">Amaze</option>
+                                                <option value="CodeClash">CodeClash</option>
+                                                <option value="Businorra">Businorra</option>
+                                                <option value="Technovation">Technovation</option>
+                                                <option value="Circuitricks">Circuitricks</option>
+                                                <option value="Xpressions">Xpressions</option>
+                                                <option value="Enigma">Enigma</option>
+                                            </select>
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary" type="button" style="background-color: #676262;">
+                                                    Event
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group single-form">
+                                            <select class="custom-select" name="deg_dip" id="inputGroupSelect04"
+                                                required>
+                                                <option selected>Choose...</option>
+                                                <option value="Degree">Degree</option>
+                                                <option value="Diploma">Diploma</option>
+                                            </select>
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary" type="button" style="background-color: #676262;">
+                                                    Degree/Diploma
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- single form -->
+                                    </div>
+                                    <div class="input-box my-4">
+                                        <span class="details">Upload Screenshot</span> <br />
+                                        <input type="file" name="tr_ss" accept="image/*" required />
+                                    </div>
+
+                                    <p class="form-message"></p>
+                                    <!-- <div class="col-md-12">
+                                        <div class="single-form center">
+                                            <button type="submit" class="btn btn-common">
+                                                Submit
+                                            </button>
+                                        </div> -->
+                                        <!-- single form -->
+                                    </div>
+                                </div>
+                                <!-- row -->
+                            </form>
+                        </div>
+                        <!-- contact form -->
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </section>
+
+        <div class="container d-flex align-items-center justify-content-center my-5 flex-column  ">
+                <div class="row " >
+                        <div class="about-image mt-50">
+                            <div class="single-pricing text-center">
+                                <div class="pricing-name">
+                                    <h4 class="pricing-title">UPI ID</h4>
+                                    <span class="sub-title">Please pay exact amount of event fees
+                                    </span>
+                                    <span class="sub-title">For Team Event Enter All Team member's names
+                                    </span>
+                                </div>
+                                <div class="pricing-price">
+                                    <h4 style="color: white">kulkarnipiyush12@kotak</h4>
+                                </div>
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>For any queries</li>
+                                        <li>Contact :</li>
+                                        <li>Piyush Kulkarni: 8378937212</li>
+                                    </ul>
+                                </div>
+                               
+
+                                
+                            </div>
+                          
+                        </div>
+
+                        
+                    </div>
+
+                   
+        </div>
+
+<!-- 
+        <div class="container  my-5">
+            <div class="col-md-12">
+                <div class="single-form center">
+                    <button type="submit" class="btn btn-common">
+                        Submit
+                    </button>
+                </div>
+        </div> -->
+
+        <div class="my-3 d-flex align-items-center justify-content-center  ">
+            <button type="submit" class="btn btn-common w-25"   >Submit</button>
+        </div>
+
+        
+   
+        
+      
+
+        <!-- Footer Part Starts -->
+        <footer class="mainfooter" role="contentinfo">
+
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-3">
+                            <div class="footer-pad">
+                                <h4>ELESA</h4>
+                                <ul class="list-unstyled">
+
+                                    <p class="text">Association of electronics engineering students</p>
+                                    <p class="text">Walchand College of engineering , Sangli</p>
+                                    <a class="contact-link" href="mailto:elesa.walchandsangli@gmail.com">Contact Our
+                                        Authority</a>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-3">
+                            <div class="footer-pad">
+                                <h4> Connect With Us </h4>
+                                <ul class="list-unstyled">
+                                    <p>Don't miss a thing! Receive daily news You should connect social area for Any
+                                        Proper Updates Anytime
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h4> Follow Us </h4>
+                            <ul class="social-network social-circle">
+                                <li>
+                                    <a href="https://www.linkedin.com/company/elesa-wce"><i
+                                            class="lni-linkedin-original"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/elesa_wce"><i
+                                            class="lni-instagram-original"></i></a>
+                                </li>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 copy" style="margin-top: 2rem;">
+                            <p class="text-center"> © Copyright 2022 - Elesa. All rights reserved. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Part End -->
+
+
+    </body>
