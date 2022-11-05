@@ -103,7 +103,7 @@ ul li, ol li {
 
 .section-title {
   font-size: 30px;
-  color: #212121;
+  color: #65a6cc;;
   line-height: 52px;
   font-weight: 700;
   text-align: center;
@@ -114,13 +114,13 @@ ul li, ol li {
 
 .section-title:before {
   content: "[";
-  color: #ff4a67;
+  color: #910c5d;
   padding-right: 10px;
 }
 
 .section-title:after {
   content: "]";
-  color: #ff4a67;
+  color: #910c5d;
   padding-left: 10px;
 }
 
@@ -216,7 +216,7 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   box-shadow: 0 8px 16px rgba(255, 77, 121, 0.25);
   position: relative;
   z-index: 1;
@@ -224,7 +224,7 @@ ul li, ol li {
 
 .btn-common:hover {
   color: #fff;
-  background-image: linear-gradient(65deg, #ff527d 0, #ff85a3 100%);
+  background-image: linear-gradient(65deg, #4f0437 0, #4f0437 100%);
   box-shadow: 0 8px 16px rgba(255, 77, 121, 0.4);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -303,7 +303,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -620,7 +620,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-toggler {
   background: transparent;
   border: 1px solid #ff4a67;
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -681,7 +681,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -690,7 +690,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link:focus,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text !important;
@@ -701,7 +701,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #ff4a67 0, #ff4a67 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text !important;
@@ -960,7 +960,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .ready-to-play:before {
   content: '';
-  background-image: linear-gradient(0deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(0deg, #910c5d 0, #37275e 100%);
   position: absolute;
   display: block;
   left: 0px;
@@ -1090,7 +1090,7 @@ h1 {
 }
 
 .counter-section .counter .icon {
-  background-image: linear-gradient(0deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(0deg, #910c5d 0, #37275e 100%);
   color: #fff;
   text-align: center;
   line-height: 50px;
@@ -1186,7 +1186,7 @@ h1 {
 .schedule .nav-tabs .nav-item .nav-link:hover {
   border-color: transparent;
   position: relative;
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
 }
 
 .schedule .nav-tabs .nav-item.show .nav-link h4, .schedule .nav-tabs .nav-link.active h4,
@@ -1243,7 +1243,7 @@ h1 {
 }
 
 .schedule .card .schedule-slot-time {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   color: #fff;
   padding: 38px 28px;
   float: left;
@@ -1391,7 +1391,7 @@ h1 {
   padding: 0 12px;
   font-size: 32px;
   vertical-align: middle;
-  background-image: linear-gradient(0deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(0deg, #910c5d 0, #37275e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1414,7 +1414,9 @@ h1 {
 
 /* Services Item */
 .intro {
-  background: #fff;
+  background: url(../img/background/bg2.png) no-repeat;
+  background-size: cover;
+  
 }
 
 .single-intro-text {
@@ -1454,6 +1456,11 @@ h1 {
   margin-bottom: 20px;
   font-weight: 700;
 }
+.single-intro-text h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
 
 .single-intro-text p {
   margin-bottom: 0;
@@ -1468,7 +1475,7 @@ h1 {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
-  background-image: linear-gradient(0deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(0deg, #910c5d 0, #37275e 100%);
   color: #fff;
   display: block;
   text-align: left;
@@ -1478,7 +1485,7 @@ h1 {
 }
 
 .single-intro-text:hover i {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1740,7 +1747,7 @@ h1 {
   position: absolute;
   top: -25px;
   left: 42%;
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   color: #ffffff;
   display: block;
   font-size: 26px;
@@ -2162,7 +2169,7 @@ footer {
 }
 
 #count .count-wrapper {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   border-radius: 4px;
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
   margin-bottom: -35px;
@@ -2270,7 +2277,7 @@ footer {
 
 #pricing .price-block-wrapper .price h2 {
   font-size: 38px;
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2327,7 +2334,7 @@ footer {
 }
 
 #pricing .active {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   box-shadow: 0 16px 48px #E2E8ED;
 }
 
@@ -2379,6 +2386,7 @@ footer {
   color: #fff;
   overflow: hidden;
   position: relative;
+  height: 90vh;
 }
 
 #hero-area .overlay {
@@ -2399,7 +2407,7 @@ footer {
 }
 
 #hero-area .contents .icon i {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #910c5d 0, #37275e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
