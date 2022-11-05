@@ -1454,6 +1454,11 @@ h1 {
   margin-bottom: 20px;
   font-weight: 700;
 }
+.single-intro-text h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
 
 .single-intro-text p {
   margin-bottom: 0;
