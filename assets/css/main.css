@@ -1138,6 +1138,7 @@ h1 {
 
 #sponsors .sponsors-logo a img {
   margin: 30px;
+  width: 200px;
 }
 
 #sponsors .spnsors-logo:hover {
