@@ -18,7 +18,9 @@ body {
   backface-visibility: hidden;
   overflow-x: hidden;
 }
-
+.img-fluid{
+  height:-webkit-fill-available;
+}
 h1, h2, h3, h4, h5 {
   font-size: 4vw;
   font-weight: 700;
@@ -904,6 +906,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #event-up .event-item {
   position: relative;
+  height:210px;
 }
 
 #event-up .event-item .overlay-text {
@@ -913,24 +916,17 @@ a.back-to-top:hover, a.back-to-top:focus {
   left: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
   opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+
 }
 
 #event-up .event-item .content {
   position: absolute;
-  top: 30%;
+  top: 40%;
   width: 100%;
   color: #fff;
-  transform: translateY(-50%);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+
 }
 
 #event-up .event-item .content h3 {
@@ -943,11 +939,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-top: 10px;
 }
 
-#event-up .event-item:hover .content {
-  top: 50%;
-}
 
-#event-up .event-item .overlay-text:hover {
+#event-up .event-item .overlay-text {
   opacity: 1;
 }
 
@@ -964,7 +957,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .ready-to-play:before {
   content: '';
-  background-image: linear-gradient(0deg, #910c5d 0, #37275e 100%);
   position: absolute;
   display: block;
   left: 0px;
