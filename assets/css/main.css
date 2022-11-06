@@ -2274,6 +2274,9 @@ footer {
   background-color: #fff;
   color:#37275e;
 }
+.prizeimg{
+  width:20em;
+}
 @media (max-width: 600px) {
   #pricing .price-block-wrapper{
     height:100%;
@@ -2283,6 +2286,15 @@ footer {
     width: 30vh;
     margin-left: 50px;
     font-size: 15px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h4,h3,h2{
+    font-size: 25px;
+  }
+  .prizeimg{
+    width: 200px;
   }
 }
 #pricing .price-block-wrapper .icon {
