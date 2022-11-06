@@ -2289,6 +2289,10 @@ footer {
   #pricing .price-block-wrapper{
     height:100%;
   }
+  .text-center{
+    font-size:30px;
+    padding:2%
+  }
   .feature {
     height: 15vh;
     width: 30vh;
