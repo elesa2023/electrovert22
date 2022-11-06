@@ -166,6 +166,7 @@ ul li, ol li {
   text-tranform: capitalize;
 }
 
+
 .page-tagline {
   font-size: 24px;
   font-weight: 400;
@@ -818,6 +819,9 @@ a.back-to-top:hover, a.back-to-top:focus {
     margin-bottom: 0;
     padding: 0px 40px;
     color: #212121;
+  }
+  #pricing .price-block-wrapper{
+    height:100%;
   }
 }
 
@@ -1964,7 +1968,6 @@ h1 {
 #contact-text .contact-wrapper {
   background: #fff;
   margin-bottom: -35px;
-  margin-top: -20px;
   padding: 30px 0;
   border-radius: 4px;
   position: relative;
@@ -2241,16 +2244,47 @@ footer {
 #pricing .price-block-wrapper {
   display: inline-block;
   width: 100%;
+  height:70vh;
   text-align: center;
   box-shadow: 0 8px 24px #E2E8ED;
   border-radius: 4px;
   background: #fff;
-  padding: 50px 40px;
+  padding: 10px 20px;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.feature{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height:20vh;
+  padding:10% 1%;
+  font-size: 20px;
+  box-shadow: 0 8px 24px #37275e;
+  color:#fff;
+  border-radius: 4px;
+  background: #37275e;
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
+.feature:hover{
+  background-color: #fff;
+  color:#37275e;
+}
+@media (max-width: 600px) {
+  #pricing .price-block-wrapper{
+    height:100%;
+  }
+  .feature {
+    height: 15vh;
+    width: 30vh;
+    margin-left: 50px;
+    font-size: 15px;
+  }
+}
 #pricing .price-block-wrapper .icon {
   padding: 20px;
 }
