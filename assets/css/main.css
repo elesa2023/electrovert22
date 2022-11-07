@@ -20,6 +20,8 @@ body {
 }
 .img-fluid{
   height:-webkit-fill-available;
+  width: 100%;
+  object-fit: cover;
 }
 h1, h2, h3, h4, h5 {
   font-size: 4vw;
@@ -907,6 +909,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 #event-up .event-item {
   position: relative;
   height:210px;
+  width: 210px;
+
 }
 
 #event-up .event-item .overlay-text {
@@ -942,6 +946,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #event-up .event-item .overlay-text {
   opacity: 1;
+}
+#event-up .event-item .overlay-text:hover {
+  opacity: 0;
 }
 
 /* ==========================================================================
@@ -2292,6 +2299,11 @@ footer {
   .text-center{
     font-size:30px;
     padding:2%
+  }
+  #event-up .event-item {
+    height:210px;
+    width: 100%;
+  
   }
   .feature {
     height: 15vh;
