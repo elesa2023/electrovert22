@@ -948,7 +948,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   opacity: 1;
 }
 #event-up .event-item .overlay-text:hover {
+  transition: opacity 1.5s;  
   opacity: 0;
+
 }
 
 /* ==========================================================================
